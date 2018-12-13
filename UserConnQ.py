@@ -63,7 +63,7 @@ class Toplevel1():
         os.startfile("\\\\10.10.1.36\\ManagementApproach\\總公司暨各事業單位電話_Portal.xls")
     def __init__(self, top=None):
         autocompleteList=[]
-        '''conn = pymssql.connect(server="10.10.1.159", user="EfgpServer", password="es`1", database="NaNa", timeout=0, login_timeout=60, charset='UTF-8', as_dict=False, host='', appname=None, port='22507', conn_properties=None, autocommit=False, tds_version=None)
+        '''conn = pymssql.connect(server="10.10.1.XXX", user="EfXXXXr", password="XXX1", database="XXXa", timeout=0, login_timeout=60, charset='UTF-8', as_dict=False, host='', appname=None, port='22507', conn_properties=None, autocommit=False, tds_version=None)
         cursor = conn.cursor()
         cursor.execute("select u2.id,u2.userName,u2.mailAddress,ou2.organizationUnitName,fd.functionDefinitionName from "+ 
                         "OrganizationUnit as ou2 "+  
@@ -439,7 +439,7 @@ class autocomplate(tk.Entry):
 
     def findAllValue(self,userid,username):
         #print(dir(Toplevel1))
-        '''conn = pymssql.connect(server="10.10.1.159", user="EfgpServer", password="es`1", database="NaNa", timeout=0, login_timeout=60, charset='UTF-8', as_dict=False, host='', appname=None, port='22507', conn_properties=None, autocommit=False, tds_version=None)
+        '''conn = pymssql.connect(server="10.10.X.XXX", user="XXSXXXr", password="XXX", database="XXXX", timeout=0, login_timeout=60, charset='UTF-8', as_dict=False, host='', appname=None, port='22507', conn_properties=None, autocommit=False, tds_version=None)
         cursor = conn.cursor()
         cursor.execute("select u2.id,u2.userName,u2.mailAddress,ou2.organizationUnitName,fd.functionDefinitionName from "+ 
                         "OrganizationUnit as ou2 "+  
